@@ -1,7 +1,7 @@
 # Layout YouTube
 
 ## Visualização da página
-[]()
+[<img src="./src/design/desktop.png">](https://duardohenrique.github.io/layout-youtube/)
 
 (Pressione CRTL + clique na imagem para abrir o projeto em uma nova guia)
 
