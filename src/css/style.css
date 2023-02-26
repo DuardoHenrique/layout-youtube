@@ -1,0 +1,73 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: 2;
+    grid-column-gap: 20px;
+    height: 415px;
+    max-width: 900px;
+    margin-top: 40px;
+    margin-left: 35px;
+    background-color: #f7f7f7;
+}
+
+.grid .main {
+    grid-area: 1 / 1 / 2 / 1;
+    width: 550px;
+}
+
+.grid .main .info-video{
+    margin-top: 10px;
+}
+
+.grid .main .info-video h2 {
+    margin-bottom: 7px;
+}
+
+.grid .main .info-video p {
+    margin-top: 5px;
+}
+
+
+.advertising {
+    grid-area: 1 / 2 / 2 / 3;
+    position: relative;
+    height: 80px;
+}
+
+.grid .container .advertising span {
+    position: absolute;
+    left: 35%;
+    top: 20%;
+}
+
+.recommendation {
+    grid-area: 2 / 2 / 2 / 3;
+    display: flex;
+    flex-direction: column;
+}
+
+.recommendation .video-recommendation {
+    margin-bottom: 20px;
+    display: flex;  
+} 
+
+.recommendation .video-recommendation .info-recommendation {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5px;
+}
+
+.recommendation .video-recommendation .info-recommendation span {
+    font-size: 11px;
+    margin-bottom: 2px;
+}
+
+.recommendation .video-recommendation .info-recommendation h3 {
+    margin-bottom: 4px;
+    font-size: 14px;
+}
+
+.advertising {
+    grid-area: 1 / 2 / 2 / 3;
+    width: 280px;
+}
